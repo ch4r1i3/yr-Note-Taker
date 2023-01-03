@@ -21,7 +21,7 @@
   Clone or download the repository to your machine. Initiate with ```npm i```
 
 
-    ## Technologies
+  ## Technologies
   - JavaScript
   - Node js
   - Express js
@@ -43,8 +43,9 @@
 
   ## Description
 
- 
+![Screenshot 2023-01-02 at 9 34 04 PM](https://user-images.githubusercontent.com/111701536/210293842-004513a8-423b-492b-9303-02a0d21d4906.jpeg)
 
+![Screenshot 2023-01-02 at 9 19 01 PM](https://user-images.githubusercontent.com/111701536/210293863-b1ef09f4-1bf7-4dbb-9f11-ffbddf973e26.jpeg)
 
 
 
