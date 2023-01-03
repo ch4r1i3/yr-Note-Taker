@@ -16,7 +16,7 @@
   - [Github Prof](#github profile)
   - [Links](#links)
 
-    ## Installation:
+  ## Installation:
 
   Clone or download the repository to your machine. Initiate with ```npm i```
 
