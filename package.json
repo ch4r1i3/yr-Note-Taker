@@ -1,0 +1,24 @@
+{
+    "name": "yr-note-taker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ch4r1i3/yr-Note-Taker.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/ch4r1i3/yr-Note-Taker/issues"
+    },
+    "homepage": "https://github.com/ch4r1i3/yr-Note-Taker#readme"
+}

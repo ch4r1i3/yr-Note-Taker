@@ -25,7 +25,6 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-// get request for the notes
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
@@ -34,7 +33,6 @@ const getNotes = () =>
     },
   });
 
-  // post request for the notes
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -44,7 +42,6 @@ const saveNote = (note) =>
     body: JSON.stringify(note),
   });
 
-  // delete request for the notes
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
@@ -53,7 +50,6 @@ const deleteNote = (id) =>
     },
   });
 
-  // function to hide the save btn until there is a note added to save
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -70,7 +66,6 @@ const renderActiveNote = () => {
   }
 };
 
-// save note
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
@@ -84,7 +79,7 @@ const handleNoteSave = () => {
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
-  // Prevents the click listener for the list from being called when the button inside of it is clicked
+  // prevents the click listener for the list from being called when the button inside of it is clicked
   e.stopPropagation();
 
   const note = e.target;
@@ -136,7 +131,6 @@ const renderNoteList = async (notes) => {
     liEl.classList.add('list-group-item');
 
     const spanEl = document.createElement('span');
-    spanEl.classList.add('list-item-title');
     spanEl.innerText = text;
     spanEl.addEventListener('click', handleNoteView);
 
