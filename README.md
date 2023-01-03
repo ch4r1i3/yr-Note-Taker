@@ -11,8 +11,9 @@
   - [Technologies](#technologies)
   - [Usage](#usage)
   - [Credits](#credits)
+  - [Description](#description)
   - [License](#license)
-  - [Questions](#questions)
+  - [Github Prof](#github profile)
   - [Links](#links)
 
     ## Installation:
@@ -26,32 +27,32 @@
   - Express js
   - Heroku
   
-    ## Usage:
+  ## Usage:
 
   Use this project to write and view notes for what ever your needs require in that capacity
 
 
-    ## Credits:
+  ## Credits:
 
   Developed by Carlos Martinez
 
 
-    ## License:
+  ## License:
 
   [License](https://opensource.org/licenses/MIT)
 
-    ## Description
+  ## Description
 
-    Screenshot 2023-01-02 at 9.34.04 PM.jpeg
-
-    Screenshot 2023-01-02 at 9.19.01 PM.jpeg
+ 
 
 
-    ## Github Profile:
+
+
+  ## Github Profile:
 
   - [Github Profile](https://github.com/ch4r1i3)
 
 
-    ## Links
+  ## Links
   [Heroku Link](https://yr-note-taker.herokuapp.com/)
   [Github Repo](https://github.com/ch4r1i3/yr-Note-Taker.git)
