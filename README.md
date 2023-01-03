@@ -11,7 +11,7 @@
   - [Technologies](#technologies)
   - [Usage](#usage)
   - [Credits](#credits)
-  - [Description](#description)
+  - [Pictures](#pictures)
   - [License](#license)
   - [Github Prof](#github profile)
   - [Links](#links)
